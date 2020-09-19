@@ -1,0 +1,32 @@
+.user-img{
+  margin-top: -50px;
+  margin-bottom: 35px;
+}
+.main-section{
+  margin: 0 auto;
+  margin-top: 15%;
+  padding: 0;
+}
+.modal-content{
+  background: rgb(214,233,231);
+  opacity: 0.75;
+  padding: 0 20px;
+
+}
+.user-img img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.form-group input{
+  height: 50px;
+  text-align: center;
+  border-radius: 5%;
+}
+button{
+  width: 60%;
+  margin: 5px 0 10px;
+}
+.forgot{
+  padding: 5px 0px 15px;
+}

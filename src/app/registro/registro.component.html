@@ -1,0 +1,37 @@
+<div class="">
+    <div class="row principal">
+      <div class="mx-auto">
+        <span class="anchor" id="formLogin"></span>
+        <div class="card rounded-0">
+          <div class="card-header" width="400px">
+            <h3 class="mb-0">Registar</h3>
+          </div>
+          <div class="card-body">
+            <form class="form" >
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Nombre Completo"  [(ngModel)]="nomC" name="nomc">
+                <label class="Advertencias">{{AdverNC}}</label>
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Nombre de Usuario"  [(ngModel)]="nomU" name="nomU">
+                <label class="Advertencias">{{AdverNU}}</label>
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="password" placeholder="Contraseña"  [(ngModel)]="password1" name="password1">
+                <label class="Advertencias">{{AdverP1}}</label>
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="password" placeholder="Confirmar Contraseña"  [(ngModel)]="password2" name="password2">
+                <label class="Advertencias">{{AdverP2}}</label>
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Correo Electronico" [(ngModel)]="email" name="email">
+                <label class="Advertencias">{{AdverCo}}</label>
+              </div>
+              <button type="button" (click)="registerUser()" class="btn btn-primary float-right">Registrar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

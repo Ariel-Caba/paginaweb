@@ -1,0 +1,22 @@
+<div class="modal-dialog text-center">
+  <div class="col-sm-8 main-section" >
+    <div class="modal-content">
+      <div class="col-12 user-img" >
+        <img src="/assets/ima/avatar.png" alt="">
+      </div>
+      <form class="col-12">
+        <div class="form-group" id="user-group">
+          <input class="form-control" type="text" placeholder="Nombre de Usuario" [(ngModel)]="User_name" name="User_name">
+
+        </div>
+        <div class="form-group" id="contraseña-group">
+          <input class="form-control" type="password" placeholder="Contraseña" [(ngModel)]="password" name="password">
+
+        </div>
+        <button type="submit" class="btn btn-primary" (click) = "IngresoUser()" [routerLink]="[database.LinkLogin]"> Iniciar Seción </button>
+        <button type="submit" class="btn btn-primary" [routerLink]="['/registro']"> Registrarse </button>
+
+      </form>
+    </div>
+  </div>
+</div>
